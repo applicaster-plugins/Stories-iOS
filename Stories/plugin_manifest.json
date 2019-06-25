@@ -1,0 +1,45 @@
+{
+    "api": {
+        "require_startup_execution": false,
+        "class_name": "StoriesPlugin.ZappStoriesAdapter",
+        "modules": []
+    },
+    "dependency_repository_url": ["https://github.com/applicaster-plugins/Stories-iOS"],
+    "platform": "ios",
+    "author_name": "Javier Casaudoumecq",
+    "author_email": "j.casaudoumecq@applicaster.com",
+    "manifest_version": "0.0.1",
+    "name": "Stories",
+    "description": "Stories plugin",
+    "type": "general",
+    "identifier": "stories",
+    "ui_builder_support": true,
+    "dependency_name": "Stories",
+    "dependency_version": "0.0.1",
+    "whitelisted_account_ids": [],
+    "min_zapp_sdk": "10.0.0",
+    "screen": true,
+    "deprecated_since_zapp_sdk": "",
+    "unsupported_since_zapp_sdk": "",
+    "react_native": false,
+    "custom_configuration_fields": [
+        {
+          "type": "text",
+          "key": "SampleTextParameter",
+          "tooltip_text": "Sample Text parameter that will be available in the plugin configuration",
+          "default": "sample-text"
+        },
+        {
+          "type": "checkbox",
+          "key": "SampleTextBoolean",
+          "tooltip_text": "Sample text boolean that will be available in the plugin configuration",
+          "default": 0
+        },
+        {
+          "type": "colorpicker",
+          "key": "SampleColor",
+          "tooltip_text": "Sample color that will be available in the plugin configuration",
+          "default": "FFFFFFFF"
+        }
+    ]    
+}
