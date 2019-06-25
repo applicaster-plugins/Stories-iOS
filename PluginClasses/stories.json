@@ -9,8 +9,26 @@
                 "name": "Terasa",
                 "picture": "https://randomuser.me/api/portraits/med/women/1.jpg"
             },
-            "snaps_count": 2,
+            "snaps_count": 7,
             "snaps": [
+                {
+                    "id": "c1",
+                    "mime_type": "image",
+                    "url": "https://r1.ilikewallpaper.net/iphone-8-wallpapers/download/35756/Sunset-Nature-Mountain-Wood-Red-Sky-Lake-iphone-8-wallpaper-ilikewallpaper_com.jpg",
+                    "last_updated": "12h"
+                },
+                {
+                    "id": "c2",
+                    "mime_type": "video",
+                    "url": "http://localhost/streams/prog_index.m3u8",
+                    "last_updated": "11h"
+                },
+                {
+                    "id": "c3",
+                    "mime_type": "image",
+                    "url": "https://i.pinimg.com/736x/a1/d4/ea/a1d4ea964c62603ec20acd16eb0e5c85.jpg",
+                    "last_updated": "10h"
+                },
                 {
                     "id": "c4",
                     "mime_type": "video",
@@ -18,10 +36,22 @@
                     "last_updated": "9h"
                 },
                 {
+                    "id": "c5",
+                    "mime_type": "video",
+                    "url": "http://localhost/streams3/prog_index.m3u8",
+                    "last_updated": "8h"
+                },
+                {
                     "id": "c6",
                     "mime_type": "image",
                     "url": "https://iphonehdwallpapers.net/wp-content/cache/76354cd2fcd65995a5f866f6bbb9ad0c_w324_h576_sc.jpg",
                     "last_updated": "7h"
+                },
+                {
+                    "id": "c7",
+                    "mime_type": "video",
+                    "url": "http://localhost/streams4/prog_index.m3u8",
+                    "last_updated": "6h"
                 }
             ]
         },
