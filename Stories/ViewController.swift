@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBAction func createPluginButtonClicked(_ sender: Any) {
         let dict = Dictionary(dictionaryLiteral: ("foo", "bar"))
         if let model = ZPPluginManager.pluginModels()?.first {
-            let pluginAdapter = FullScreenPlugin(pluginModel:model,
+            let pluginAdapter = ZappStoriesAdapter(pluginModel:model,
                                                  screenModel: ZLScreenModel(object: dict),
                                                  dataSourceModel: nil)
             if let vc = pluginAdapter?.createScreen() {

@@ -1,0 +1,25 @@
+PODS:
+  - StoriesPlugin (0.0.1):
+    - StoriesPlugin/Core (= 0.0.1)
+  - StoriesPlugin/Core (0.0.1):
+    - ZappPlugins
+  - ZappPlugins (8.3.3)
+
+DEPENDENCIES:
+  - StoriesPlugin (from `Stories.podspec`)
+
+SPEC REPOS:
+  "git@github.com:applicaster/CocoaPods.git":
+    - ZappPlugins
+
+EXTERNAL SOURCES:
+  StoriesPlugin:
+    :path: Stories.podspec
+
+SPEC CHECKSUMS:
+  StoriesPlugin: 7d88b290b66c9bc4f3010a2152e2a3fd4e4c395f
+  ZappPlugins: 4db1865926a4f92c83f2c1a3d27b35e97410ba0b
+
+PODFILE CHECKSUM: 03909118a3befd535f1ef693409a4bcbd81943fc
+
+COCOAPODS: 1.5.3
