@@ -19,8 +19,8 @@ public class IGRetryLoaderButton: UIButton {
     convenience init(withURL url: String) {
         self.init()
         self.backgroundColor = .white
-        self.frame = CGRect(x: 0, y: 0, width: 60, height: 60)
-        self.setImage(#imageLiteral(resourceName: "ic_retry"), for: .normal)
+//        self.frame = CGRect(x: 0, y: 0, width: 60, height: 60)
+//        self.setImage(#imageLiteral(resourceName: "ic_retry"), for: .normal)
         self.addTarget(self, action: #selector(didTapRetryBtn), for: .touchUpInside)
         self.contentURL = url
         self.tag = 100

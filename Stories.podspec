@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-    s.name             = "StoriesPlugin"
+    s.name             = "Stories"
     s.version          = '0.0.1'
     s.summary          = "An Example of full screen plugin for Zapp iOS."
     s.description      = <<-DESC

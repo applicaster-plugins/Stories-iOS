@@ -31,6 +31,7 @@ final class StoryPreviewHeaderView: UIView {
         let imageView = UIImageView()
         imageView.layer.cornerRadius = imageView.frame.height/2
         imageView.clipsToBounds = true
+        imageView.contentMode = .scaleAspectFill
         imageView.layer.borderWidth = 1.0
         imageView.layer.borderColor = UIColor.white.cgColor
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -39,6 +40,7 @@ final class StoryPreviewHeaderView: UIView {
     private let detailView:UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.contentMode = .scaleAspectFill
         return view
     }()
     private let snaperNameLabel:UILabel = {
@@ -55,8 +57,8 @@ final class StoryPreviewHeaderView: UIView {
     }()
     private lazy var closeButton:UIButton = {
         let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setImage(#imageLiteral(resourceName: "ic_close"), for: .normal)
+//        button.translatesAutoresizingMaskIntoConstraints = false
+//        button.setImage(#imageLiteral(resourceName: "ic_close"), for: .normal)
         button.addTarget(self, action: #selector(didTapClose(_:)), for: .touchUpInside)
         return button
     }()

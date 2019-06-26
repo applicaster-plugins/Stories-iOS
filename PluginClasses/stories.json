@@ -6,52 +6,34 @@
             "last_updated": 1504799962,
             "user": {
                 "id": "b1",
-                "name": "Terasa",
-                "picture": "https://randomuser.me/api/portraits/med/women/1.jpg"
+                "name": "Gabriela",
+                "picture": "https://www.dropbox.com/s/ncj12ki55rfx7e1/Screen%20Shot%202019-06-25%20at%202.37.05%20PM.png?dl=0"
             },
-            "snaps_count": 7,
+            "snaps_count": 4,
             "snaps": [
                 {
                     "id": "c1",
                     "mime_type": "image",
-                    "url": "https://r1.ilikewallpaper.net/iphone-8-wallpapers/download/35756/Sunset-Nature-Mountain-Wood-Red-Sky-Lake-iphone-8-wallpaper-ilikewallpaper_com.jpg",
+                    "url": "https://www.dropbox.com/s/57bie710tuz8kjb/IMG_6225.jpg?dl=0",
                     "last_updated": "12h"
                 },
                 {
                     "id": "c2",
                     "mime_type": "video",
-                    "url": "http://localhost/streams/prog_index.m3u8",
+                    "url": "http://localhost/streams2/prog_index.m3u8",
                     "last_updated": "11h"
                 },
                 {
                     "id": "c3",
                     "mime_type": "image",
-                    "url": "https://i.pinimg.com/736x/a1/d4/ea/a1d4ea964c62603ec20acd16eb0e5c85.jpg",
+                    "url": "https://www.dropbox.com/s/11iuwa9q7hkd9xy/IMG_5758.jpg?dl=0",
                     "last_updated": "10h"
                 },
                 {
                     "id": "c4",
                     "mime_type": "video",
-                    "url": "http://localhost/streams2/prog_index.m3u8",
-                    "last_updated": "9h"
-                },
-                {
-                    "id": "c5",
-                    "mime_type": "video",
-                    "url": "http://localhost/streams3/prog_index.m3u8",
-                    "last_updated": "8h"
-                },
-                {
-                    "id": "c6",
-                    "mime_type": "image",
-                    "url": "https://iphonehdwallpapers.net/wp-content/cache/76354cd2fcd65995a5f866f6bbb9ad0c_w324_h576_sc.jpg",
-                    "last_updated": "7h"
-                },
-                {
-                    "id": "c7",
-                    "mime_type": "video",
                     "url": "http://localhost/streams4/prog_index.m3u8",
-                    "last_updated": "6h"
+                    "last_updated": "9h"
                 }
             ]
         },
@@ -74,7 +56,7 @@
                 {
                     "id": "c9",
                     "mime_type": "image",
-                    "url": "https://static1.squarespace.com/static/5397b451e4b07f25d1682866/5643b980e4b0eaf052b84a23/5643b983e4b00c09aadce12d/1447278987246/Apple-iPhone-5-5s-Wallpaper-Good-Dino-3.jpg",
+                    "url": "https://www.dropbox.com/s/11iuwa9q7hkd9xy/IMG_5758.jpg?dl=0",
                     "last_updated": "1m"
                 },
                 {
